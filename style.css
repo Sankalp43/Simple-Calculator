@@ -1,0 +1,65 @@
+html , body{
+    height: 100%;
+    width: 100%;
+    }
+
+.button{
+    font-size: 20px;
+    color:steelblue;
+    background-color: bisque;
+    width: 60px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(173, 129, 214);
+    /* height: 80px;
+    width: 80px ; */
+}
+
+h1{
+    color: cornflowerblue;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row{
+    margin: 8px 0px ;
+}
+
+.row input{
+    color: purple;
+    background-color: antiquewhite;
+    width: 265px;
+    font-size: 25px;
+    padding: 10px 0px;
+    margin: 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.img{
+    background:"https://images.unsplash.com/photo-1589318577086-eaf0fadffcd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhbGN1bGF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60";
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-size:100% 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(3px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
+
+
